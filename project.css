@@ -1,0 +1,273 @@
+*{
+    background-color: black;
+/* overflow-x: hidden; */
+
+}
+.body1{
+display: flex;
+height: -500px;
+background-color: black;
+overflow: hidden;
+
+
+
+}
+
+/* .col{
+    height:500px;
+     
+}
+     */
+
+.section1{
+    padding-top: 200px;
+    justify-content: center; 
+    text-align: center;
+    color: white;
+    padding-left: 200px;
+
+
+    
+
+
+}
+.col-sm{
+    padding-top: 250px;
+    padding-right: -200px;
+
+}
+
+.photo{
+    position: relative;
+    height: 600px;
+    width: -700px;
+    top: -240px;
+    left: 20.5px;
+    right: -500px;
+    
+    
+
+    
+
+    
+   
+}
+.photo1{
+    padding-bottom: 250px;
+}
+
+.Contactb{
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    background-color: brown;
+    color: white;
+}
+
+.Contactb:hover{
+    background-color: rgb(248, 251, 250);
+    color: rgb(8, 8, 8)
+
+}
+
+
+div.text-center{
+    height: 500px
+}
+div.photo1.col-sm{
+    height: 700px;
+    
+    
+}
+
+.photo2{
+    position: relative;
+    height: 800px;
+    width: -700px;
+    top: -300px;
+    left: 20px;
+    right: -800px;
+    bottom: 200px;
+    border-radius: 30px;
+}
+
+ .section1{
+    position: relative;
+    bottom: 900px;
+
+    
+}
+.progress{
+    position: relative;
+    width: 50%;
+    left: 350px;
+    
+}
+
+/* #row col-sm text-center text-white{
+    position: relative;
+    height: 500px;
+    
+
+} */
+#Skills{
+position: relative;
+height: 800px;
+top: 70px;
+background-color: black;
+
+}
+/* .col-sm text-center{
+  position: relative;
+  top: -500px;
+} */
+.nav-link{
+    color: white;
+}
+.nav-link.nav-hover {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link.nav-hover::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color:brown;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-link.nav-hover:hover {
+    color:brown;
+  }
+  
+  .nav-link.nav-hover:hover::before {
+    transform: scaleX(1);
+  }
+  #Project{
+    position: relative;
+    height: 500px;
+    top: 200px;
+    width:90%;
+    left: 90px;
+    
+    
+    
+  }
+  .ecom h5,h3{
+    position: relative;
+    top: -100px;
+  }
+  .com h5,h3{
+    position: relative;
+    top: -130px;
+  }
+  .mod h5,h3{
+    position: relative;
+    top: -130px;
+
+  }
+  .cop h5,h3{
+    position: relative;
+    top: -130px;
+  }
+  
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  #Contact{
+    position: relative;
+    top: -120px;
+  color: white;
+
+  }
+  .social-buttons,.btn1{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+
+  }
+  .social-buttons,.btn1:hover{
+    color: grey;
+  }
+  .link:hover{
+    color: rgb(0,119,181);
+
+  }
+  .tel:hover{
+    color:#F50B86
+
+  }
+  .what:hover{
+    color: #075E54
+
+  }
+  .x:hover{
+    
+
+  }
+  .ins:hover{
+    color :#d62976;
+
+  }
+  .mai:hover{
+    color:#34A853
+  }
+  .img1{
+    position: relative;
+    height: 500px;
+    width: 500px;
+  }
+  #Project{
+    display: flex;
+    justify-content:space-around;
+  }
+.button{
+  color: white;
+  background-color: brown;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: inset;
+}
+.button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.1s;
+  border-style: solid white;
+}
+  
